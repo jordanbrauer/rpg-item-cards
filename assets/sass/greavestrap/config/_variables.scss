@@ -1,0 +1,19 @@
+// Global Values
+$global_font_size: 16px;
+$global_margin: 0.5rem;
+$global_padding: $global_margin;
+
+// Colour Palettes
+$greavestrap_palette:(
+  primary: #efefef,
+  secondary: #222,
+  magic: #00f,
+  rare: #ff0,
+  unique: #f90,
+  set: #0f0,
+);
+
+// Item Images
+$armor_album:(
+  light: 'assets/img/plate/bpdy/light.gif',
+);
