@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+html {
+  font-size: 16px;
+  color: #efefef;
+}
+
+.rpg-item {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+.rpg-item img {
+  border: 3px solid #38afff;
+}
+
+.statblock {
+  font: 1rem Helvetica, Arial, Sans-serif;
+  line-height: 1.25rem;
+  color: #efefef;
+  background: #222;
+  border: 3px solid #222;
+}
+.statblock__properties {
+  color: #38afff;
+}
+.statblock .statblock-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+}
+.statblock .statblock-label {
+  font-weight: bold;
+}

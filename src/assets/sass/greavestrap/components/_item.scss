@@ -1,9 +1,14 @@
-.gs-item {
+.rpg-item {
+  display: inline-block;
   width: auto;
-  max-width: auto;
+  // max-width: auto;
   height: auto;
-  max-height: auto;
+  // max-height: auto;
   margin: auto;
   padding: 0;
-  border: 1px solid #00f;
+  text-align: center;
+
+  img {
+    border: 3px solid map-get($greavestrap_palette, magic);
+  }
 }

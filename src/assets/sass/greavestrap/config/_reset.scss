@@ -1,0 +1,12 @@
+* {
+  box-sizing: $global_box_model;
+}
+
+:root {
+  font-size: $global_font_size;
+}
+
+html {
+  font-size: $global_font_size;
+  color: map-get($greavestrap_palette, primary);
+}

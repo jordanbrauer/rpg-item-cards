@@ -1,0 +1,24 @@
+.statblock {
+  font: 1rem Helvetica, Arial, Sans-serif;
+  line-height: 1.25rem;
+  color: map-get($greavestrap_palette, primary);
+  background: map-get($greavestrap_palette, secondary);
+  border: 3px solid map-get($greavestrap_palette, secondary);
+
+  &__properties {
+    color: map-get($greavestrap_palette, magic);
+  }
+
+  .statblock-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+  }
+  .statblock-label {
+    font-weight: bold;
+  }
+  .statblock-value {
+
+  }
+}

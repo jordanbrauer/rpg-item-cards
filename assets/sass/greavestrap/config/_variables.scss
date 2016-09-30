@@ -1,15 +1,17 @@
 // Global Values
-$global_box_model: border-box;
 $global_font_size: 16px;
 $global_margin: 0.5rem;
 $global_padding: $global_margin;
+
+// Typography
+$fonts_dir: 'assets/fonts';
 
 // Colour Palettes
 $greavestrap_palette:(
   primary: #efefef,
   secondary: #222,
-  magic: #38afff,
-  rare: #ffda38,
+  magic: #00f,
+  rare: #ff0,
   unique: #f90,
   set: #0f0,
 );
